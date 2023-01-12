@@ -36,16 +36,16 @@ const Header = () => {
           >
             <ul className="flex gap-6 font-semibold justify-between    items-start lg:m-0 mt-5 lg:flex-row flex-col">
               <li className="font-primary font-normal text-xs leading-[0.09em] text-white cursor-pointer my-3">
-                THE DIFFERENCE
+                <a href="#" className="no-underline">THE DIFFERENCE</a>
               </li>
               <li className="font-primary font-normal text-xs leading-[0.09em] text-white cursor-pointer my-3">
-                FEATURES + BENEFITS
+                <a href="#" className="no-underline">FEATURES + BENEFITS</a>
               </li>
               <li className="font-primary font-normal text-xs leading-[0.09em] text-white cursor-pointer my-3">
-                TESTIMONIALS
+                <a href="#" className="no-underline">TESTIMONIALS</a>
               </li>
               <li className="font-primary font-normal text-xs leading-[0.09em] text-white cursor-pointer my-3">
-                APPLY NOW
+                <a href="#" className="no-underline">APPLY NOW</a>
               </li>
             </ul>
 
