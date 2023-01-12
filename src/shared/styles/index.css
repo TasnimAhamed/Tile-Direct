@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+/* /---- tailwind CSS ----/ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* /----- EDIT TAILIWIND CSS ----/ */
+@layer base {
+  body {
+    @apply !font-primary;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    @apply !max-w-[935px] mx-auto px-3 w-full;
+  }
+
+  .navContainer {
+    @apply !max-w-[1292px] mx-auto px-3 w-full;
+  }
+}
+
+.bannerBg {
+  background-image: url("../../assets/banner.svg");
+}
+
+.applyNowBg {
+  background: radial-gradient(
+    44.19% 188.06% at 50% 50%,
+    #282727 25.56%,
+    #000000 100%
+  );
+}
